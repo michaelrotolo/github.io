@@ -6,8 +6,12 @@ nav {
     text-align: center;
     margin-top:40px;
 }
+nav h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 48px;
+}
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Rubik', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -18,19 +22,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
 }
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+
 p {
     font-size: 1.5em;
+    font-family:'Rubik', sans-serif;
     line-height: 1.4em;
-    color: #333;
+    color: #464646;
 }
 footer {
     border-top: 1px solid #d5d5d5;
