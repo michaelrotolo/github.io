@@ -12,7 +12,7 @@ nav h1 a {
     margin-bottom:0;
     text-transform:uppercase;
     font-weight:400;
-    letter-spacing:7px;
+    letter-spacing:5px;
     color:#444;
 }
 nav ul li a {
@@ -28,13 +28,13 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom:1px dashed #666;
 }
-nav ul, footer ul {
+nav ul {
     font-family:'Josefin Sans', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: 600;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -49,9 +49,9 @@ a {
     color:#4e7570;
 }
 p {
-    font-size: 1em;
+    font-size: 15px;
     font-family:'Open Sans', sans-serif;
-    line-height: 1.5em;
+    line-height: 27px;
     color: #464646;
 }
 footer {
