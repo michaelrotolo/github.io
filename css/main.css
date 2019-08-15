@@ -4,14 +4,22 @@ body {
 }
 nav {
     text-align: center;
-    margin-top:40px;
+    margin:100px auto;
 }
 nav h1 {
-    font-family:'Rubik', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-size: 48px;
+    margin-bottom:0;
+    text-transform:uppercase;
+}
+nav h1 a {
+    color:#444444;
+}
+nav li a {
+    color:#666;
 }
 nav ul, footer ul {
-    font-family:'Rubik', sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -32,7 +40,7 @@ a {
 }
 p {
     font-size: 1em;
-    font-family:'Rubik', sans-serif;
+    font-family:'Open Sans', sans-serif;
     line-height: 1.5em;
     color: #464646;
 }
