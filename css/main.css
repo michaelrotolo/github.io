@@ -38,12 +38,30 @@ nav ul li {
 a {
     text-decoration: none;
 }
-.container a {
-    color:#6ca29b;
-    border-bottom:1px solid #6ca29b;
+.link-highlight {
+    display:inline-block;
+    position:relative;
+    margin: 0 -4px -0.4em;
+    padding: 0 4px;
+    z-index: 10;
+    overflow:hidden;
+    cursur:pointer;
 }
-.container a:hover {
-    color:#4e7570;
+.link-highlight:before {
+    content:"";
+    display: block;
+    position:absolute;
+    background: #f7cac9;
+    height: 40%;
+    bottom: 0px;
+    left:4px;
+    right:4px;
+    opacity:0.5;
+    transform: translate3d(0, 0, 0) scale(1, 1);
+    transform-origin: center bottom;
+    transition: all 400ms;
+    pointer-events: none;
+    z-index: -1;
 }
 p {
     font-size: 16px;
