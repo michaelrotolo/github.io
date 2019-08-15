@@ -2,6 +2,9 @@ body {
     margin: 60px auto;
     width: 85%;
 }
+::selection {
+    background:#ece299;
+}
 nav {
     text-align: center;
     margin:70px auto;
