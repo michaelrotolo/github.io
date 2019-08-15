@@ -131,13 +131,14 @@ img {
     }
     .left-body {
         display:inline-block;
-        width: 70%;
+        width: 65%;
     }
     .right-bar {
         display:inline-block;
-        width:25%;
+        width:30%;
         vertical-align:top;
         float:right;
         margin-left:4%;
+        margin-top:20px;
     }
 }
