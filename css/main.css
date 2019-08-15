@@ -8,7 +8,7 @@ nav {
 }
 nav h1 a {
     font-family:'Merriweather', serif;
-    font-size: 36px;
+    font-size: 49px;
     margin-bottom:0;
     font-weight:400;
     color:#444;
@@ -46,10 +46,10 @@ a {
     color:#4e7570;
 }
 p {
-    font-size: 15px;
+    font-size: 16px;
     font-family:'Muli', sans-serif;
     font-weight: 300;
-    line-height: 27px;
+    line-height: 28px;
     color: #464646;
 }
 footer {
