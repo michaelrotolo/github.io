@@ -117,6 +117,9 @@ p {
     line-height: 28px;
     color: #464646;
 }
+img {
+    width: 100%;
+}
 
 @media screen and (min-width: 600px) {
     body {
@@ -126,5 +129,15 @@ p {
     nav {
         margin:100px auto;
     }
-    
+    .left-body {
+        display:inline-block;
+        width: 70%;
+    }
+    .right-bar {
+        display:inline-block;
+        width:25%;
+        vertical-align:top;
+        float:right;
+        margin-left:4%;
+    }
 }
