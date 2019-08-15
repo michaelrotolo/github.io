@@ -6,23 +6,33 @@ nav {
     text-align: center;
     margin:100px auto;
 }
-nav h1 {
+nav h1 a {
     font-family:'Open Sans', sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom:0;
     text-transform:uppercase;
+    font-weight:400;
+    letter-spacing:7px;
+    color:#444;
 }
-nav h1 a {
-    color:#444444;
-}
-nav li a {
+nav ul li a {
+    font-family:'Josefin Sans', sans-serif;
+    font-size:16px;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing:2px;
     color:#666;
+    margin: 10px 15px;
+    border-bottom:1px solid #fff;
+}
+nav ul li a:hover {
+    border-bottom:1px dashed #666;
 }
 nav ul, footer ul {
     font-family:'Josefin Sans', sans-serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 nav ul li, footer ul li {
     display: inline;
