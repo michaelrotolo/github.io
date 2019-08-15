@@ -25,9 +25,6 @@ nav ul li a {
     margin: 10px 15px;
     border-bottom:1px solid #fff;
 }
-nav ul li a:hover {
-    border-bottom:1px dashed #666;
-}
 nav ul {
     font-family:'Josefin Sans', sans-serif;
     padding: 0px;
