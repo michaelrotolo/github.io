@@ -37,7 +37,7 @@ nav ul li a {
     margin: 10px 15px;
     cursor:pointer;
 }
-#navbar a.active {
+#navbar a.current {
     text-decoration: underline !important;
 }
 nav ul {
