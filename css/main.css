@@ -36,6 +36,7 @@ nav ul li a {
     color:#666;
     margin: 10px 15px;
     cursor:pointer;
+    transition:0.3s;
 }
 #navbar a.current {
     border-bottom: 4px solid #ece299;
