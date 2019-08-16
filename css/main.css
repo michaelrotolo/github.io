@@ -8,6 +8,9 @@ body {
     margin: 60px auto;
     width: 85%;
 }
+img {
+    width: 100%;
+}
 nav {
     text-align: center;
     margin:70px auto;
@@ -38,7 +41,7 @@ nav ul {
 }
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 a {
     text-decoration: none;
@@ -66,9 +69,6 @@ p {
     font-weight: 300;
     line-height: 28px;
     color: #464646;
-}
-img {
-    width: 100%;
 }
 
 @media only screen and (min-width: 580px) {
