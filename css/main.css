@@ -30,40 +30,6 @@ nav ul li a {
     border-bottom:1px solid #fff;
     cursor:pointer;
 }
-.nav-highlight {
-    display:inline-block;
-    position:relative;
-    margin: 0 10px -0.4em;
-    padding: 0 4px;
-    z-index: 10;
-    overflow:hidden;
-    cursur:pointer;
-}
-.nav-highlight:before {
-    content:"";
-    display: block;
-    position:absolute;
-    background: #ece299;
-    height: 40%;
-    bottom: 0px;
-    left:4px;
-    right:4px;
-    opacity:0;
-    transform: translate3d(0, 0, 0) scale(1, 1);
-    transform-origin: center bottom;
-    transition: all 400ms;
-    pointer-events: none;
-    z-index: -1;
-}
-.nav-highlight:hover:before {
-    opacity:0.8;
-    transform: translate3d(0, 0, 0) scale(1.2, 2.8);
-}
-.nav-highlight:focus {
-    outline-color: rgba(0,0,0,0.1);
-    outline-width:1px;
-    outline-offset:-3px;
-}
 nav ul {
     font-family:'Muli', sans-serif;
     padding: 0px;
@@ -89,9 +55,10 @@ a {
     background-repeat: repeat-x;
     background-size: 4px 4px;
     transition: background-size .2s;
+    transition-timing-function: ease-in-out;
 }
 .link-highlight:hover {
-    background-size: 4px 50px;
+    background-size: 4px 60px;
 }
 p {
     font-size: 16px;
