@@ -28,6 +28,10 @@ nav h1 a {
     color:#333;
     cursor:pointer;
 }
+h2 {
+    font-family:'Lora', serif;
+    color:#333;
+}
 nav ul li a {
     font-family:'Muli', sans-serif;
     font-size:16px;
@@ -96,5 +100,13 @@ p {
         float:right;
         margin-left:4%;
         margin-top:20px;
+    }
+    .left-year {
+        display:inline-block;
+        width:12%;
+        vertical-align:top;
+    }
+    .right-desc {
+        display:inline-block;
     }
 }
