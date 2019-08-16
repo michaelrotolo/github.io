@@ -38,7 +38,7 @@ nav ul li a {
     cursor:pointer;
 }
 #navbar a.current {
-    text-decoration: underline !important;
+    border-bottom: 4px solid #ece299;
 }
 nav ul {
     font-family:'Muli', sans-serif;
