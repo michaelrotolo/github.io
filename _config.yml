@@ -1,2 +1,4 @@
 name: Michael Rotolo
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
