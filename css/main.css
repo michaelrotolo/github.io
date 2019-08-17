@@ -130,7 +130,7 @@ p, ul, li {
         margin-top:1em;
     }
     .right-desc {
-        margin-bottom:1em;
+        margin-bottom:0;
     }
 }
 
