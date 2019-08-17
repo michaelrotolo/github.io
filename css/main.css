@@ -67,9 +67,6 @@ nav ul li a {
 #navbar a.current {
     border-bottom: 4px solid #ece299;
 }
-#navbar a.current-white {
-    border-bottom: 4px solid #ffffff;
-}
 #navbar a:hover{
     opacity:0.7;   
 }
@@ -191,5 +188,13 @@ p, ul, li {
     }
     .right-big {
         width: 50%;
+    }
+}
+
+@media print {
+    img {
+     width:40%;
+     float:right;
+     margin:15px;
     }
 }
