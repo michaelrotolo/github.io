@@ -45,6 +45,9 @@ h2 {
 .research-block:last-child {
     border-bottom:none;
 }
+.research-block .left-small {
+    margin-bottom:20xp;
+}
     
 h3 {
     font-family:'Lora', serif;
