@@ -142,4 +142,26 @@ p, ul, li {
     .right-desc {
         width:85%;
     }
+    .left-small {
+        display:inline-block;
+        width: 55%;
+    }
+    .right-big {
+        display:inline-block;
+        width:40%;
+        vertical-align:top;
+        float:right;
+        margin-left:4%;
+        margin-top:20px;
+    }
+        
+}
+
+@media only screen and (min-width: 1000px) {
+    .left-small {
+        width:45%;
+    }
+    .right-big {
+        width: 50%;
+    }
 }
