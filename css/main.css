@@ -83,7 +83,7 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
-.container a {
+.blurb a {
     background:
         linear-gradient(
             to bottom, var(--mainColor) 0%,
@@ -95,7 +95,7 @@ nav ul li {
     transition: background-size .2s;
     transition-timing-function: ease-in-out;
 }
-.container a:hover {
+.blurb a:hover {
     background-size: 4px 60px;
 }
 p, ul, li {
