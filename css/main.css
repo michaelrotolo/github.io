@@ -87,6 +87,9 @@ p, ul, li {
 .membership ul {
     margin:0 auto;
 }
+.cv-item-group p {
+    margin-bottom: 0;
+}
 
 @media only screen and (min-width: 580px) {
     body {
