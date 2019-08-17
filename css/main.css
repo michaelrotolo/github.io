@@ -38,6 +38,7 @@ h2 {
 }
 .research-block {
     margin-bottom:50px;
+    overflow: auto;
 }
     
 h3 {
@@ -169,7 +170,6 @@ p, ul, li {
         vertical-align:top;
         float:right;
         margin-left:4%;
-        margin-top:20px;
     }
         
 }
