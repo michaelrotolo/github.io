@@ -33,6 +33,11 @@ h2 {
     color:#333;
     margin: 50px auto 0 auto;
 }
+h3 {
+    font-family:'Lora', serif;
+    color:#333;
+    margin: 30px auto 0 auto;
+}
 nav ul li a {
     font-family:'Muli', sans-serif;
     font-size:16px;
