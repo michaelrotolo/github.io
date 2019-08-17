@@ -142,6 +142,12 @@ p, ul, li {
         margin:0 5% 20px 0;
         width:40%;
     }
+    .image-right-research {
+        max-width: 375px;
+        width:40%;
+        float:right;
+        margin:0 0 20px 5%;
+    }
 }
 
 
