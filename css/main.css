@@ -131,6 +131,12 @@ p, ul, li {
     .right-desc {
         margin-bottom:0;
     }
+    .image-left {
+        max-width:375px;
+        float:left;
+        margin:0 5% 20px 0;
+        width:40%;
+    }
 }
 
 
