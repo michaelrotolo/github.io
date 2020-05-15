@@ -102,6 +102,9 @@ p, ul, li {
     line-height: 28px;
     color: #464646;
 }
+.container .blurb ul {
+    margin-inline-start: 2em;   
+}
 .membership p:first-child {
     margin-bottom:0;
 }
