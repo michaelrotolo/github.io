@@ -3,7 +3,7 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 title: Michael Rotolo
-description: Michael Rotolo is a Ph.D. candidate and University Presidential Fellow in the Department of Sociology at Notre Dame. His research focuses on morality, values, religion, culture, politics, aspirations, and cognition, especially among young Americans and in the context of families.
+description: Michael &ldquo;Chip&rdquo; Rotolo is a Research Associate at Pew Research Center in Washington, DC. His research examines the interplay of religion, morality, and politics in the United States.
 url: https://mrotolo.com
 twitter:
   username: mrotolo1
